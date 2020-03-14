@@ -1,0 +1,28 @@
+.Lottery{
+  border: 2px solid silver;
+  width: 60%;
+  margin: auto;
+  padding: 1rem;
+  margin-top: .5rem;
+  border-radius: 10px;
+}
+.Lottery-ball-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.Lottery-btn{
+  padding: .5rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  background-color: royalblue;
+  border-radius: 10px;
+  outline: none;
+  font-weight: bolder;
+  transition: ease 400ms all;
+}
+.Lottery-btn:hover{  
+  background-color: rgb(59, 80, 143);
+  cursor: pointer;
+  color: white;
+}
